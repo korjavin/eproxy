@@ -13,4 +13,4 @@ jobs:
     name: lint
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/clippy
+      - uses: ./github/actions/general.yaml
